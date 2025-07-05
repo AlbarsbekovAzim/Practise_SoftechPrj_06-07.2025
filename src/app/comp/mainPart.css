@@ -1,0 +1,163 @@
+#mainPart {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainPart .welcomePart {
+    margin-top: 1rem;
+    display: flex;
+}
+
+#mainPart .welcomePart .nav {
+    width: 320px;
+    max-height: calc(100vh - 2rem - 120px);
+    overflow-y: auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px -10px #0005;
+}
+
+#mainPart .welcomePart .nav::-webkit-scrollbar {
+    width: 5px;
+}
+  
+#mainPart .welcomePart .nav::-webkit-scrollbar-track {
+    background: #d1d1d1;
+}
+
+#mainPart .welcomePart .nav::-webkit-scrollbar-thumb {
+    background-color: #fc1201;
+}
+
+#mainPart .welcomePart .nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75rem 1rem;
+}
+
+#mainPart .welcomePart .nav div span {
+    transition: .3s;
+}
+
+#mainPart .welcomePart .nav:hover {
+    z-index: 1100;
+}
+
+#mainPart .welcomePart .nav div:hover {
+    background-color: #fcfcfc;
+}
+
+#mainPart .welcomePart .nav div span:hover {
+    color: #fc1201;
+    text-decoration: underline;
+}
+
+#mainPart .welcomePart .posters {
+    position: relative;
+}
+
+#mainPart .welcomePart .posters .slideShowContainer {
+    width: 810px;
+    /* max-width: 600px; */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#mainPart .welcomePart .posters .slideShowContainer .slideShow {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+#mainPart .welcomePart .posters .slideShowContainer .slideShow img {
+    width: 810px;
+    /* height: 440px; */
+    cursor: pointer;
+}
+
+#mainPart .welcomePart .posters .arrowSlide {
+    padding: 1rem .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 44px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: .25rem;
+    position: absolute;
+    top: 220px;
+    transition: .3s;
+}
+
+#mainPart .welcomePart .posters .arrowSlide svg path {
+    transition: .3s;
+}
+
+#mainPart .welcomePart .posters .arrowSlide:hover {
+    background-color: #fc1201;
+    cursor: pointer;
+}
+
+#mainPart .welcomePart .posters .arrowSlide:hover svg path {
+    fill: #fff;
+}
+
+#mainPart .welcomePart .posters .rightArrowSlide {
+    right: 10px;
+}
+
+#mainPart .welcomePart .posters .leftArrowSlide {
+    left: 10px;
+    transform: rotateZ(180deg);
+}
+
+#mainPart .welcomePart .posters .slidePaginationContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#mainPart .welcomePart .posters .slidePagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: .5rem;
+    border-radius: .5rem; 
+    box-shadow: 0 0 20px -10px #0005;
+}
+
+#mainPart .welcomePart .posters .slidePagination span {
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    scale: .8;
+    cursor: pointer;
+}
+
+#mainPart .welcomePart .posters .slidePagination .active {
+    background-color: #003459;
+    scale: 1;
+}
+
+#mainPart .promotions .promotionProducts .promotionProduct .productTopPart .productPhotoAndBtns .productBtns svg path {
+    fill: #000;
+    transition: .5s;
+}
+
+#mainPart .promotions .promotionProducts .promotionProduct .productTopPart .productPhotoAndBtns .productBtns svg .doItBigger {
+    scale: 1.4;
+}
+
+#mainPart .promotions .promotionProducts .promotionProduct .productTopPart .productPhotoAndBtns .productBtns svg .aBitBigger {
+    scale: 1.03;
+}
+
+#mainPart .promotions .promotionsText {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}

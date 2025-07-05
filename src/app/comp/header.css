@@ -1,0 +1,268 @@
+header {
+    height: 120px;
+    box-shadow: 0 0 15px -10px #0008;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+header .headerMainPart {
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    /* justify-content: space-between; */
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow: hidden; */
+}
+
+header .headerMainPart div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .headerMainPart #menu-icon {
+    display: none;
+}
+
+header .headerMainPart #mainLogo {
+    width: auto;
+    height: 30px;
+}
+
+header .headerMainPart .katalogBtn {
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 1rem;
+    color: #fc1201;
+    background-color: #fff;
+    border: #fc1201 solid 3px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+header .headerMainPart .katalogBtn svg {
+    margin-right: 5px;
+}
+
+header .headerMainPart .katalogBtn svg path {
+    fill: #fc1201;
+    transition: 0.5s;
+}
+
+header .headerMainPart .katalogBtn:hover {
+    color: #fff;
+    background-color: #fc1201;
+    cursor: pointer;
+}
+
+header .headerMainPart .katalogBtn:hover svg path {
+    fill: #fff;
+}
+
+header .headerMainPart .searchInputContainer {
+    padding-left: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+
+header .headerMainPart .searchInput {
+    width: 340px;
+    /* width: 520px; */
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: #f2f2f2 solid 2px;
+    background-color: #f8fbfd;
+    font-size: .75rem;
+    color: #00171f;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+
+header .headerMainPart .searchInput::placeholder {
+    color: #b8b7c1;
+}
+
+header .headerMainPart .searchInputBtn {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    right: .5rem;
+    transform: translate(-0rem, .4rem);
+    /* margin-left: -2rem; */
+}
+
+header .headerMainPart .searchInputBtn svg path {
+    fill: #000;
+    transition: .5s;
+}
+
+header .headerMainPart .searchInput:focus{
+    background-color: #fff;
+    border: solid 2px #d3d8e7;
+}
+
+header .headerMainPart .searchInputBtn:hover {
+    cursor: pointer;
+}
+
+header .headerMainPart .searchInputBtn:hover svg path {
+    fill: #fc1201;
+}
+
+header .headerMainPart .forClient {
+    margin-left: 1rem;
+}
+
+header .headerMainPart .forClient .forClientBtn {
+    margin-right: 1rem;
+    font-size: .75rem;
+    gap: .25rem;
+    text-decoration: underline;
+}
+
+header .headerMainPart .forClient .forClientBtn:hover {
+    cursor: pointer;
+}
+
+header .headerMainPart .forContact {
+    margin-right: 1rem;
+}
+
+header .headerMainPart .forContact .forContactBtn {
+    font-size: .875rem;
+    gap: .25rem;
+    text-decoration: underline;
+}
+
+header .headerMainPart .forContact .forContactBtn:hover {
+    cursor: pointer;
+}
+
+header .headerMainPart .headerMiniBtns > div {
+    margin-right: 1rem;
+    position: relative;
+}
+
+header .headerMainPart .headerMiniBtns > div:hover {
+    cursor: pointer;
+}
+
+/* header .headerMainPart .headerMiniBtns div svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+header .headerMainPart .headerMiniBtns div svg path {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+header .headerMainPart .headerMiniBtns div:hover svg path {
+    fill: #fc1201;
+}
+
+header .headerMainPart .headerMiniBtns .doItBigger {
+    scale: 1.4;
+}
+
+header .headerMainPart .headerMiniBtns .aBitBigger {
+    scale: 1.05;
+}
+
+header .headerMainPart .headerMiniBtns div span {
+    box-sizing: border-box;
+    font-size: 11px;
+    height: 14px;
+    min-width: 14px;
+    padding: 0 .25rem;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    background-color: #9ca3af;
+    color: #fff;
+    border-radius: 50rem;
+    position: absolute;
+    top: -.375rem;
+    right: -.375rem;
+}
+
+header .headerAdditionalPart {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    max-width: 1140px;
+    width: 100%;
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl {
+    gap: .5rem;
+    border-top: 1px solid #f2f2f2;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl li {
+    padding: .5rem;
+    list-style: none;
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl li span {
+    transition: .5s;
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl li svg {
+    transition: .5s;
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl li svg path {
+    transition: .5s;
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl li:hover span {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fc1201;
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl li:hover svg {
+    transform: rotateZ(180deg);
+}
+
+header .headerAdditionalPart .headerAdditionalPartUl li:hover svg path {
+    fill: #fc1201;
+}
+
+header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
