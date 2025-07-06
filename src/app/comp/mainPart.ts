@@ -1,9 +1,10 @@
 import { CommonModule } from "@angular/common";
 import { Component, Output, EventEmitter } from "@angular/core";
+import { FormsModule } from "@angular/forms";
 
 @Component({
     selector: 'mainPartApp',
-    imports: [ CommonModule ],
+    imports: [ CommonModule, FormsModule ],
     templateUrl: 'mainPart.html',
     styleUrl: 'mainPart.css',
 })
@@ -64,5 +65,88 @@ export class MainPart {
         this.currentIndex = (this.currentIndex + 1) % this.images.length;
         this.resetAutoScroll();
     }
+
+    productsPromotions = [
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        },
+        {
+            img: '1-200x200.jpg',
+            name: 'Беспроводная колонка Hoco HC17',
+            currPrice: 800,
+            prevPrice: 1200,
+            discount: 33,
+            amount: 1
+        }
+    ];
       
 }

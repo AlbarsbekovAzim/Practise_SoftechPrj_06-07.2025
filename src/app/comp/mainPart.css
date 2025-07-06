@@ -161,3 +161,165 @@
     font-size: 1.2rem;
     margin: 1rem 0;
 }
+
+#mainPart .products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+#mainPart .products .product {
+    background-color: #fff;
+    border-radius: .25rem;
+    padding: 1.2rem;
+    width: 20%;
+    height: 100%;
+    transition: .3s;
+}
+
+/* #mainPart .products .product .productContainer {
+    padding: 1.5rem;
+} */
+
+#mainPart .products .product .productTopPart {
+    position: relative;
+}
+
+#mainPart .products .product .productTopPart .productPhotoAndBtns img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#mainPart .products .product .productTopPart .promotionTag {
+    position: absolute;
+    font-size: .625rem;
+    background-color: #fc1201;
+    color: #fff;
+    padding: .25rem .5rem;
+    border-radius: .75rem;
+}
+
+#mainPart .products .product .productTopPart .productPhotoAndBtns .productBtns {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    gap: .75rem;
+}
+
+#mainPart .products .product .productTopPart .productPhotoAndBtns .productBtns svg {
+    cursor: pointer;
+}
+
+#mainPart .products .product .productBottomPart {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+    gap: .5rem;
+    font-size: .875rem;
+}
+
+#mainPart .products .product .productBottomPart .productName {
+    margin-bottom: .5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#mainPart .products .product .productBottomPart .productPrice {
+    height: 100%;
+}
+
+#mainPart .products .product .productBottomPart .productPrice .prevAndDiscount {
+    display: flex;
+    align-items: center;
+}
+
+#mainPart .products .product .productBottomPart .productPrice .prevAndDiscount .prevPrice {
+    text-decoration: line-through;
+    color: #0005;
+}
+
+#mainPart .products .product .productBottomPart .productPrice .prevAndDiscount .priceDiscount {
+    margin-left: .5rem;
+    padding: .25rem .5rem;
+    background-color: #d5383d;
+    border-radius: .75rem;
+    color: #fff;
+    font-size: .625rem;
+}
+
+#mainPart .products .product .productBottomPart .productPrice .currPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d5383d;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction .amount {
+    border: 1px solid #f2f2f2;
+    border-radius: .5rem;
+    background-color: #f8fbfd;
+    display: flex;
+    align-items: center;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction .amount .inputAmount {
+    all: unset;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    text-align: center;
+    max-width: 2.5rem;
+    padding: .25rem 0;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction .amount button {
+    all: unset;
+    font-size: 1.4rem;
+    /* padding: .5rem; */
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction .take {
+    border: 1px solid #fc1201;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction .take svg path {
+    fill: #fc1201;
+    transition: .3s;
+}
+
+#mainPart .products .product:hover {
+    box-shadow: 0 0 20px 0 #3331;
+}
+
+#mainPart .products .product:hover .productBottomPart .productName {
+    color: #fc1201;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction .take:hover {
+    background-color: #fc1201;
+}
+
+#mainPart .products .product .productBottomPart .productIteraction .take:hover svg path {
+    fill: #fff;
+}
