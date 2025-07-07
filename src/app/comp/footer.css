@@ -1,0 +1,208 @@
+footer {
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+footer .footerContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .footerContainer .lighterText {
+    color: #003459;
+}
+
+footer .footerContainer .topPart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+}
+
+footer .footerContainer .topPart .leftPart img {
+    width: auto;
+    height: 30px;
+}
+
+footer .footerContainer .topPart .rightPart {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+footer .footerContainer .topPart .rightPart .text {
+    font-size: .875rem;
+}
+
+footer .footerContainer .btn {
+    padding: .75rem 2rem;
+    border: 1px solid #fc1201;
+    border-radius: .5rem;
+    color: #fc1201;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+footer .footerContainer .topPart .rightPart .btn {
+    margin-left: 3rem;
+}
+
+footer .footerContainer .topPart .rightPart .btn svg {
+    margin-right: .5rem;
+}
+
+footer .footerContainer .topPart .rightPart .btn svg path {
+    fill: #fc1201;
+    transition: .3s;
+}
+
+footer .footerContainer .btn:hover {
+    background-color: #fc1201;
+    color: #fff;
+}
+
+footer .footerContainer .topPart .rightPart .btn:hover svg path {
+    fill: #fff;
+}
+
+footer .footerContainer > .midPart {
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerContainer > .midPart > .leftPart {
+    display: flex;
+}
+
+footer .footerContainer > .midPart > .leftPart > .leftPart .schedule {
+    color: #9ca3af;
+}
+
+footer .footerContainer > .midPart > .leftPart > .rightPart {
+    margin-left: 3rem;
+}
+
+footer .footerContainer > .midPart > .midPart {
+    margin-left: 5rem;
+}
+
+footer .footerContainer > .midPart > .midPart .info {
+    line-height: 2;
+}
+
+footer .footerContainer > .midPart > .rightPart {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+footer .footerContainer > .midPart > .rightPart .socialNetworks {
+    display: flex;
+}
+
+footer .footerContainer > .midPart > .rightPart .socialNetworks > .rightPart {
+    margin-left: 3rem;
+}
+
+footer .footerContainer > .midPart > .rightPart .iconSocial {
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 400;
+    font-size: 1.375rem;
+    width: 22px;
+    text-align: center;
+}
+
+footer .footerContainer > .midPart > .rightPart .facebookIco::before {
+    content: '\f39e';
+    color: #3b5998;
+}
+
+footer .footerContainer > .midPart > .rightPart .twitterIco::before {
+    content: '\f099';
+    color: #55acee;
+}
+
+footer .footerContainer > .midPart > .rightPart .instagramIco::before {
+    content: '\f16d';
+    color: #e4405f;
+}
+
+footer .footerContainer > .midPart .partsText {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+footer .footerContainer > .midPart .partsText svg {
+    margin-right: .5rem;
+}
+
+footer .footerContainer > .midPart .iconSocial {
+    margin-right: .5rem;
+}
+
+footer .footerContainer > .midPart .partsOwn {
+    margin-bottom: 1rem;
+    font-size: .875rem;
+}
+
+footer .footerContainer > .midPart .linkOrange {
+    cursor: pointer;
+    color: #fc1201;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+
+footer .footerContainer > .midPart .linkBlackNoToUnd {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+footer .footerContainer > .midPart .linkBlackUndToNo {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+}
+
+footer .footerContainer > .midPart .linkBlackNoToNo {
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+}
+
+footer .footerContainer > .midPart .linkOrange:hover {
+    text-decoration: none;
+}
+
+footer .footerContainer > .midPart .linkBlackNoToUnd:hover span:not(.iconSocial) {
+    color: #fc1201;
+    text-decoration: underline;
+}
+
+footer .footerContainer > .midPart .linkBlackUndToNo:hover {
+    color: #fc1201;
+    text-decoration: none;
+}
+
+footer .footerContainer > .midPart .linkBlackNoToNo:hover {
+    color: #fc1201;
+}
+
+footer .footerContainer > .bottomPart {
+    display: flex;
+    justify-content: end;
+    padding: 1.5rem 0;
+    color: #9ca3af;
+}

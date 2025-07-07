@@ -190,6 +190,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    cursor: pointer;
 }
 
 #mainPart .products .product .productTopPart .promotionTag {
@@ -322,4 +323,31 @@
 
 #mainPart .products .product .productBottomPart .productIteraction .take:hover svg path {
     fill: #fff;
+}
+
+#mainPart .promotions .showMoreBtn {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc1201;
+    padding: .75rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+#mainPart .promotions .showMoreBtn span {
+    margin-left: .5rem;
+}
+
+#mainPart .promotions .showMoreBtn svg {
+    transition: .3s;
+}
+
+#mainPart .promotions .showMoreBtn:hover svg {
+    transform: rotateZ(180deg);
 }

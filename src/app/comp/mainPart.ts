@@ -149,4 +149,12 @@ export class MainPart {
         }
     ];
       
+    changePrice(index: number, delta: number) {
+
+        const product = this.productsPromotions[index];
+        const newAmount = product.amount + delta;
+        if (newAmount > 0) {
+            product.amount = newAmount;
+        }
+    }
 }

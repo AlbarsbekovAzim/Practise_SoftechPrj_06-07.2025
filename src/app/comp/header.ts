@@ -11,6 +11,6 @@ export class Header {
     @HostListener('window:scroll', [])
     onWindowScroll() {
         const screenHeight = window.innerHeight;
-        this.scrolled = window.scrollY > screenHeight/2;
+        this.scrolled = window.scrollY > screenHeight - 120;
     }
 }
